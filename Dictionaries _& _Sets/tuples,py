@@ -1,0 +1,4 @@
+a = (1, 454, 54, "Ram", False, "Sam")
+print(a)
+print(type(a))
+print(a.index(False))   
