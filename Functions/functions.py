@@ -1,13 +1,27 @@
+marks = [75, 60, 85, 90, 45, 67, 80, 92]
 
+def totalstudents(marks):
+    return len(marks)
 
-def avg():    # Function Defination
-    a = int(input("enter number: "))
-    b = int(input("enter number: "))
-    c = int(input("enter number: "))
+def avgmarks(marks):
+    return sum(marks)/len(marks)
+    
+def passedstudents(marks):
+    count = 0      
+    for i in marks:
+        if i >= 50:
+            count += 1
+    return count
+    
+def failedstudents(marks):
+    count = 0
+    for i in marks:
+        if i < 50:
+            count += 1
+    return count
 
-    average = (a + b + c)/3
-    print(average)
-
-avg()   # Function Call
-print("againn")
-avg()
+    
+print("Total Students:", totalstudents(marks))
+print("Average Marks:", avgmarks(marks))
+print("Students Passed:", passedstudents(marks))
+print("Students Failed:", failedstudents(marks))
