@@ -9,7 +9,7 @@ This repository contains my Python practice while learning programming fundament
 - Functions
 - Dictionaries and Sets
 - Mixed Practice Problems
-
+- Mini Projects
 >> Purpose
 
 The goal of this repository is to strengthen my core Python concepts and improve my problem solving skills through regular practice.
